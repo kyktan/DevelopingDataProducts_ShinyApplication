@@ -7,7 +7,7 @@ library(shiny)
 # Formula to predict fuel consumption
 # (as estimated in regression model course)
 mpg <- function(cyl, wt, am){
-    out <- 39.42 - 1.51 * cyl - 3.13 * wt + 0.18 * am
+    out <- 39.42 - 1.510 * cyl - 3.125 * wt + 0.1765 * am
     out
 }
 
